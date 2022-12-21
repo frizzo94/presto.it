@@ -1,0 +1,11 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import './style.css';
+@import './navbar.css';
+@import './card.css';
+@import './masthead.css';
+@import './img-card';
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,500;1,500&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap%27');
+@import './footer.css';
+@import 'aos/dist/aos.css';
+@import '/node_modules/flag-icon-css/css/flag-icons.css'

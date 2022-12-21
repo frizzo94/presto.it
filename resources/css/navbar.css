@@ -1,0 +1,61 @@
+.nav-custom{
+    height: 120px;
+    font-family: 'Kanit', sans-serif;
+    transition: 0.5s;
+    background-color: transparent;
+    z-index: 11000;
+    display: flex;
+}
+
+.navbar-logo{
+    width: 40px;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.btn-search{
+    color: rgb(13, 71, 122);
+    border: solid 2px rgb(13, 71, 122);
+
+}
+
+.btn-search:hover{
+    color: white;
+    border: solid 2px rgb(13, 71, 122);
+    background-color: rgb(13, 71, 122);
+}
+
+.dropdown-bg{
+    background-color: rgba(103, 159, 207, 0.647);
+}
+.icon{
+    width: 18px;
+    height: 18px;
+}
+.bottom{
+    width: 35px;
+    height: 37px;
+  
+}
+.iconlang{
+ width: 18px;
+ height: 21px;
+ color: white;
+}
+
+@media(max-width: 700px){
+    .navbar-collapse { 
+    background:#cccccc;
+    text-align: center;
+    margin-top: 2%;
+    }    
+}
+
+@media(max-width: 390px){
+  .mediascreen{
+    margin-left: -25%;
+    margin-right: -5%;
+  } 
+}
+

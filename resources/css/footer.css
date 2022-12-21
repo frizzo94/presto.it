@@ -1,0 +1,11 @@
+.btn-custom{
+    color: rgb(13, 71, 122);
+    font-weight: bold;
+
+}
+
+.btn-custom:hover{
+    color: white;
+    border: solid 1px rgb(13, 71, 122);
+    background-color: rgb(13, 71, 122);
+}

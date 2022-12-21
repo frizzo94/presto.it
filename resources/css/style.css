@@ -1,0 +1,84 @@
+/* body{
+    background-color: rgb(226, 226, 226);
+   
+    color: linear-gradient(135deg, rgba(103, 158, 207, 0.7) , rgba(13, 71, 122, 0.7));
+    
+} */
+
+.div-slot{
+    margin-top: 90px;
+    
+
+}
+
+.bg-custom{
+    background: linear-gradient(135deg, rgb(13, 71, 122) , rgb(103, 158, 207))
+}
+
+
+@media screen and (max-width:760px){
+    .colonna{
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+       
+    }
+
+}
+
+/* @media (max-width: 768px) and ( min-width: 810px){
+    .colonna{
+        align-items:center;
+        justify-content: space-evenly;
+        width: 100%;
+       
+    }
+}
+ */
+
+
+
+ /* `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .colonna{
+        align-items:center;
+        justify-content: space-around;
+    }
+ }
+
+/* `md` applies to small devices (landscape phones, less than 768px)  */
+@media (max-width: 767.98px) { 
+    .colonna{
+        align-items:center;
+        justify-content: space-around;
+    }
+ }
+
+/* / `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+    .colonna{
+        align-items:center;
+        justify-content: space-around;
+    }
+ }
+
+/* / `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+    .colonna{
+        align-items: center;
+        justify-self: auto;
+    }
+ }
+
+/* / `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) { 
+    .colonna{
+        align-items: center;
+        justify-self: auto;
+    }
+ }
+
+
+.freccetta{
+    color: rgb(11, 94, 215);
+}
